@@ -13,7 +13,7 @@ const Rating = ({ value, text, color }) => {
                 : value >= rate
                 ? "fas fa-star"
                 : "far fa-star"
-            }
+            } 
           ></i>
         </span>
       ))}
